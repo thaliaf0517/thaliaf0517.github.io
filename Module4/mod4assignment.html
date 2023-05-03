@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Module 4 Assignment</title>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Module 4 Assignment 
+            </h1>
+<h3>Tip Calculator</h3>
+<p>
+    Enter the dollar amount for the service. Must be between $5.00 and $500.00
+</p>
+<input type="text" id="dollarAmount" placeholder="Enter Dollar Amount $">
+
+<br>
+
+<p>Select the service quality</p>
+<input type="radio" name="serviceQuality" value="great" id="great">
+<label for="great">Great (20% tip)</label>
+<input type="radio" name="serviceQuality" value="ok" id="ok">
+<label for="ok">OK (15% tip)</label>
+<input type="radio" name="serviceQuality" value="poor" id="poor">
+<label for="poor">Poor (10% tip)</label>
+
+<p>Click the button to calculate the tip amount and the final price</p>
+<button onclick="calculate()">Click Here</button>
+
+<p id="servicePrice"></p>
+<p id="tipAmount"></p>
+<p id="finalPrice"></p>
+
+<br>
+
+            <script src="mod4assignment.js"></script>
+        <a href="../index.html">Return to Index</a>
+        <hr>
+        <em>Copyright &copy; 2023 </em>
+        </center>
+    </body>
+</html>
